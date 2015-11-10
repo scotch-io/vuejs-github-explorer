@@ -59,6 +59,7 @@ module.exports = {
     },
     watch: {
         repo: function(newVal, oldVal) {
+            this.path = '/';
             this.getFiles();
         }
     },
